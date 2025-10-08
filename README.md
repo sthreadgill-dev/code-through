@@ -6,7 +6,7 @@
 
 In Module 6, we discussed how the open-source world manages a constant flow of new ideas through collaboration and transparency, and how that same approach could make institutions more open and participatory. The video highlighted GitHub as an example of that kind of shared problem solving; a platform where people contribute, review, and build on one another’s work.
 
-That same idea runs through this course. Some of our labs have pulled data or documentation from GitHub, and we’ve seen how R packages and projects are maintained there. For this code-through, I wanted to show how you too can use GitHub — not just as a place to download data, but as a way to manage, version, and share your own RStudio projects using the same open-source tools that power collaboration across data science.
+That same idea runs through this course. Some of our labs have pulled data or documentation from GitHub, and we’ve seen how R packages and projects are maintained there. For this code-through, I wanted to show how you too can use GitHub; not just as a place to download data, but as a way to manage, version, and share your own RStudio projects using the same open-source tools that power collaboration across data science.
 
 For this demonstration, I created a new GitHub account **sthread2-asu**, so I could show each step from a clean setup, just as someone new to GitHub would experience it. Unfortunately while updating the files my account vanished, but you can still see this work on my personal account [**sthreadgill-dev**](https://github.com/sthreadgill-dev). 
 As a reference, I used [How to Use Git/GitHub with R](https://rfortherestofus.com/2021/02/how-to-use-git-github-with-r/), which is also the same source I used when I first got started with GitHub.
@@ -54,8 +54,6 @@ use_git_config(user.name = "Your Name", user.email = "your@email.com")
 ---
 
 ## Connecting GitHub to RStudio
-
-Create a New Project → New Directory.
 
 ```r
 library(usethis)
@@ -144,7 +142,7 @@ RStudio will automatically switch to this project.
 
 ## Push / Pull / Commits
 
-Create a new file for what you would like to add to GitHub — to practice, try using a previous lab.  
+Create a new file for what you would like to add to GitHub. To practice, try using a previous lab.  
 For this example, I created a new file titled **First Commit** and added the text:
 
 ```r
@@ -202,9 +200,34 @@ In GitHub, you will see a bunch of letters and numbers next to your commit —> 
 
 ## Wrapping Up
 
-This lab ties back to the themes in Module 6 around openness, collaboration, and shared knowledge. Learning to program in R is just one step, but we also need to master how to make sure what we're developing can be seen, used, and adapted. ShinyApp has been one way we've done this, and Github allows you to take it a step further. 
+This lab ties back to the themes in Module 6 around openness, collaboration, and shared knowledge. Learning to program in R is just one step, but we also need to master how to make sure what we're developing can be seen, used, and adapted. ShinyApp has been one way we've done this, and GitHub allows you to take it a step further. 
 
 Here, I’ve shown how you can use those same principles in your own work by using GitHub to manage your RStudio projects, track versions, and share results in a way that’s transparent and reproducible. It’s the same platform that supports open data and collaborative research, and it can support your individual projects too.
-<br>
+
+---
+
+## Further Resources
+
+Learn more about Git, GitHub, and reproducible workflows with the following:
+
+* How to Use Git/GitHub with R — R for the Rest of Us [How to Use Git/GitHub with R](https://rfortherestofus.com/2021/02/how-to-use-git-github-with-r/)
+* Learn Git & GitHub right in GitHub [Git & GitHub learning resources](https://docs.github.com/en/get-started/start-your-journey/git-and-github-learning-resources) 
+* GitHub & RStudio tutorial from GitHub Resources [GitHub & RStudio tutorial](https://resources.github.com/github-and-rstudio/)  
+* RStudio Version Control / Git support guide [RStudio version control guide](https://docs.posit.co/ide/user/ide/guide/tools/version-control.html)
+* Happy Git with R — RStudio, Git & GitHub [Happy Git with R — RStudio, Git & GitHub](https://happygitwithr.com/rstudio-git-github.html)  
+* Using Git with RStudio by Jenny Bryan [Using Git with RStudio](https://jennybc.github.io/2014-05-12-ubc/ubc-r/session03_git.html) 
+* Download Git for Windows [Git for Windows](https://git-scm.com/download/win)  
+* Download Git for macOS [Git for macOS](https://git-scm.com/downloads/mac)  
+ 
+
+---
+
+## Works Cited
+
+This code through references and cites the following sources:
+
+* R-for-the-Rest-of-Us (2021). *How to Use Git/GitHub with R*. [How to Use Git/GitHub with R](https://rfortherestofus.com/2021/02/how-to-use-git-github-with-r/)  
+* GitHub (n.d.). *About READMEs & repository workflows*. [GitHub READMEs & workflows](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-readmes)  
+
 <br>
 <br>
