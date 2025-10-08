@@ -1,12 +1,6 @@
----
-title: "GitHub – Code-Through"
-output:
-  html_document:
-    toc: true
-    toc_depth: 3
-    theme: readable
-    highlight: textmate
----
+
+# GitHub – Code-Through
+
 
 ## Context: Why I Chose This Topic
 
