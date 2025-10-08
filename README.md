@@ -14,7 +14,7 @@ In Module 6, we discussed how the open-source world manages a constant flow of n
 
 That same idea runs through this course. Some of our labs have pulled data or documentation from GitHub, and we’ve seen how R packages and projects are maintained there. For this code-through, I wanted to show how you too can use GitHub — not just as a place to download data, but as a way to manage, version, and share your own RStudio projects using the same open-source tools that power collaboration across data science.
 
-For this demonstration, I created a new GitHub account [**sthread2-asu**](https://github.com/sthread2-asu), so I could show each step from a clean setup, just as someone new to GitHub would experience it.  
+For this demonstration, I created a new GitHub account **sthread2-asu**, so I could show each step from a clean setup, just as someone new to GitHub would experience it. Unfortunately while updating the files my account vanished, but you can still see this work on my personal account [**sthreadgill-dev**](https://github.com/sthreadgill-dev). 
 As a reference, I used [How to Use Git/GitHub with R](https://rfortherestofus.com/2021/02/how-to-use-git-github-with-r/), which is also the same source I used when I first got started with GitHub.
 
 ---
@@ -32,7 +32,7 @@ git --version
 
 If you see a version number, Git is installed correctly.
 
-![Git version check](https://raw.githubusercontent.com/sthread2-asu/code-through/refs/heads/main/Code%20Through/Git%20Version.png)
+![Git version check](https://raw.githubusercontent.com/sthreadgill-dev/code-through/refs/heads/main/Code%20Through/Git%20Version.png)
 
 ---
 
@@ -42,7 +42,7 @@ Create an account at [https://github.com](https://github.com).
 
 Keep in mind when creating a username that it will be public if you’re sharing content. This is particularly good to remember if you’re building a portfolio of work that you might share when applying for a technical role.
 
-My GitHub for this demonstration is [**sthread2-asu**](https://github.com/sthread2-asu).  
+My GitHub for this demonstration is **sthread2-asu**.  
 My main GitHub is [**sthreadgill-dev**](https://github.com/sthreadgill-dev).
 
 ---
@@ -79,7 +79,7 @@ You do not need to change anything in **Select Scopes.**
 Scroll down and click **Generate token.**  
 Copy the token to use in RStudio — *you can also save it to a note or in a password manager to access later, but make sure that space is secure.*
 
-![Token generation page in GitHub](https://raw.githubusercontent.com/sthread2-asu/code-through/refs/heads/main/Code%20Through/Token%20Generation.png)
+![Token generation page in GitHub](https://raw.githubusercontent.com/sthreadgill-dev/code-through/refs/heads/main/Code%20Through/Token%20Generation.png)
 
 <br>
 
@@ -119,7 +119,7 @@ A repo will initialize and you will be asked if it’s okay to commit the files.
 You may be prompted to restart RStudio to activate the Git pane. Type the selection for **Yes/For Sure.**  
 Now you will see a **Git** tab in the same pane as Environment, History, and Connections.
 
-![Git tab visible after initialization](https://raw.githubusercontent.com/sthread2-asu/code-through/refs/heads/main/Code%20Through/Git%20Tab%20in%20Pane.png)
+![Git tab visible after initialization](https://raw.githubusercontent.com/sthreadgill-dev/code-through/refs/heads/main/Code%20Through/Git%20Tab%20in%20Pane.png)
 
 ---
 
@@ -139,7 +139,7 @@ You don’t need to change anything for **Add .gitignore** or **Add license.**
 
 Once this is created, you will see the URL for your repository. This is where you will begin to add your code.
 
-![Repository created on GitHub](https://raw.githubusercontent.com/sthread2-asu/code-through/refs/heads/main/Code%20Through/Repo%20in%20Github.png)  
+![Repository created on GitHub](https://raw.githubusercontent.com/sthreadgill-dev/code-through/refs/heads/main/Code%20Through/Repo%20in%20Github.png)  
 
 <br>
 Copy the URL provided. In RStudio, go to **New Project → Version Control → Git**, then paste your repository URL.  
@@ -163,7 +163,7 @@ Check **Staged** for the files you would like to commit, and then add a commit m
 
 Then hit **Commit** and close the pop-up that appears.
 
-![Creating a commit in RStudio](https://raw.githubusercontent.com/sthread2-asu/code-through/refs/heads/main/Code%20Through/Creating%20Commit.png)
+![Creating a commit in RStudio](https://raw.githubusercontent.com/sthreadgill-dev/code-through/refs/heads/main/Code%20Through/Creating%20Commit.png)
 
 <br>
 In this same window, click **Push** in the top-right corner.  
@@ -172,7 +172,7 @@ This will create a new branch and send it to your GitHub.
 If you go to your repository and click **Code**, you should now see the files you pushed and your commit message.  
 You can click on a file to see the code contents.
 
-![First Commit file](https://raw.githubusercontent.com/sthread2-asu/code-through/refs/heads/main/Code%20Through/Fist%20Commit.png)
+![First Commit file](https://raw.githubusercontent.com/sthreadgill-dev/code-through/refs/heads/main/Code%20Through/Fist%20Commit.png)
 
 ---
 
@@ -184,11 +184,11 @@ In RStudio, make sure you’re in the correct repository and go to the **Git** t
 Click **Pull** (the blue down arrow).  
 When you look at the file you changed in GitHub, the updates should now appear.
 
-![GitHub file change example](https://raw.githubusercontent.com/sthread2-asu/code-through/refs/heads/main/Code%20Through/File%20change%20in%20Github.jpeg) 
+![GitHub file change example](https://raw.githubusercontent.com/sthreadgill-dev/code-through/refs/heads/main/Code%20Through/File%20change%20in%20Github.jpeg) 
 
 <br>
 
-![Pull success confirmation](https://raw.githubusercontent.com/sthread2-asu/code-through/refs/heads/main/Code%20Through/Pull%20Success.png)
+![Pull success confirmation](https://raw.githubusercontent.com/sthreadgill-dev/code-through/refs/heads/main/Code%20Through/Pull%20Success.png)
 
 <br>
 
@@ -198,11 +198,11 @@ This is how open-source projects work. There is a shared repository in GitHub. C
 
 In GitHub, you will see a bunch of letters and numbers next to your commit — this is the version control discussed in Module 6. You can see all the commits that were made to the main branch by clicking **# Commits**. This will show the commit history. Each commit has its own unique ID along with information on who, what, and when. You can click on the unique ID to see the commit details. This allows you to understand what code was added and what was removed. You can leave comments on a commit as well.
 
-![Repository details highlighted](https://raw.githubusercontent.com/sthread2-asu/code-through/refs/heads/main/Code%20Through/Repo%20in%20Github%20-%20Info%20Highlighted.png)
+![Repository details highlighted](https://raw.githubusercontent.com/sthreadgill-dev/code-through/refs/heads/main/Code%20Through/Repo%20in%20Github%20-%20Info%20Highlighted.png)
 
 <br>
 
-![Commit history view](https://raw.githubusercontent.com/sthread2-asu/code-through/refs/heads/main/Code%20Through/Commit%20history.png)
+![Commit history view](https://raw.githubusercontent.com/sthreadgill-dev/code-through/refs/heads/main/Code%20Through/Commit%20history.png)
 
 ---
 
