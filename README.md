@@ -89,7 +89,7 @@ library(gitcreds)
 gitcreds_set()
 ```
 
-You will be prompted to enter a password or token — paste your token in and hit Enter. The console will inform you when you are done.
+You will be prompted to enter a password or token. Paste your token in and hit Enter. The console will inform you when you are done.
 
 ---
 
@@ -196,7 +196,7 @@ Using this method, you can make changes locally → push them to GitHub → make
 
 This is how open-source projects work. There is a shared repository in GitHub. Changes committed to the main branch can be pulled by others to make their own contributions before pushing them back to GitHub for the rest of the community to see.
 
-In GitHub, you will see a bunch of letters and numbers next to your commit — this is the version control discussed in Module 6. You can see all the commits that were made to the main branch by clicking **# Commits**. This will show the commit history. Each commit has its own unique ID along with information on who, what, and when. You can click on the unique ID to see the commit details. This allows you to understand what code was added and what was removed. You can leave comments on a commit as well.
+In GitHub, you will see a bunch of letters and numbers next to your commit —> this is the version control discussed in Module 6. You can see all the commits that were made to the main branch by clicking **# Commits**. This will show the commit history. Each commit has its own unique ID along with information on who, what, and when. You can click on the unique ID to see the commit details. This allows you to understand what code was added and what was removed. You can leave comments on a commit as well.
 
 ![Repository details highlighted](https://raw.githubusercontent.com/sthreadgill-dev/code-through/refs/heads/main/Code%20Through/Repo%20in%20Github%20-%20Info%20Highlighted.png)
 
@@ -210,7 +210,7 @@ In GitHub, you will see a bunch of letters and numbers next to your commit — t
 
 This lab ties back to the themes in Module 6 around openness, collaboration, and shared knowledge. Learning to program in R is just one step, but we also need to master how to make sure what we're developing can be seen, used, and adapted. ShinyApp has been one way we've done this, and Github allows you to take it a step further. 
 
-Here, I’ve shown how you can use those same principles in your own work — using GitHub to manage your RStudio projects, track versions, and share results in a way that’s transparent and reproducible. It’s the same platform that supports open data and collaborative research, and it can support your individual projects too.
+Here, I’ve shown how you can use those same principles in your own work by using GitHub to manage your RStudio projects, track versions, and share results in a way that’s transparent and reproducible. It’s the same platform that supports open data and collaborative research, and it can support your individual projects too.
 <br>
 <br>
 <br>
